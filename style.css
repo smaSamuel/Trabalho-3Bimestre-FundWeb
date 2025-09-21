@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+/* font-family: "Gideon Roman", serif; */
+
+* {
+    font-family: "Gideon Roman", serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 50%);
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(src/DescobrimentoDoBrasil.png);
+    background-size: 100vw;
+}
+
+/* HEADER CSS */
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 3em;
+}
+
+.title {
+    font-size: 5em;
+    text-decoration: underline;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3em;
+}
+
+ul li a:hover{
+    transition: all 0.1s ease-in-out;
+    color: rgb(173, 125, 54);
+    font-size: large;
+}
+.active {
+    text-decoration: underline;
+}
+
+/* FIM HEADER CSS */

@@ -1,0 +1,23 @@
+
+/* MAIN CSS */
+
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 80%;
+    font-size: 1.2em;
+    margin: 2em 0 0 0;
+    gap: 1em;
+}
+
+main div {
+    display: flex;
+    gap: 2em;
+}
+
+main div img {
+    width: 11em;
+}
+
+/* END MAIN CSS */

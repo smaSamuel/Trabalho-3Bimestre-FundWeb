@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
 /* font-family: "Gideon Roman", serif; */
 
+:root {
+    --base-color: #1A5439;
+    --base-color2: #26704d;
+    --cor-buttons: #D9D9D9;
+    --cor-buttons2: #bdbdbd;
+    --cor-main: white;
+    --cor-sombra: rgb(44, 44, 44);
+}
+
 * {
     font-family: "Gideon Roman", serif;
     margin: 0;
@@ -51,3 +60,164 @@ ul li a:hover{
 }
 
 /* FIM HEADER CSS */
+
+
+/* HOMEPAGE CSS */
+
+.main-homepage {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 80%;
+    font-size: 1.2em;
+    margin: 2em 0 0 0;
+    gap: 1em;
+}
+
+.main-homepage div {
+    display: flex;
+    gap: 2em;
+}
+
+.main-homepage div img {
+    width: 11em;
+}
+
+/* END HOMEPAGE CSS */
+
+
+/* TIMELINE CSS */
+
+.body-timeline {
+    background-attachment: fixed;
+}
+
+section {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-top:  4em;
+}
+
+.sectionOne {
+    
+}
+
+.sectionTwo {
+    background-image: url(src/IdependenciaDoBrasil.png);
+    background-size: 100vw;
+    background-attachment: fixed;
+}
+
+.sectionThree {
+    background-image: url(src/GolpeDaRepublica.png);
+    background-size: 100vw;
+    background-attachment: fixed;
+}
+
+
+/* END TIMELINE CSS */
+
+/* NEWSLETTER CSS */
+
+.body-newsletter {
+    background: url(src/CorreioImeprial.png);
+    background-size: 100%;
+    text-shadow: none;
+
+}
+
+.main-newsletter {
+    background-color: var(--cor-main);
+    box-shadow: 0px 0px 10px var(--cor-sombra);
+    width: 50vw;
+    border-radius: 35px;
+    margin: 5em 0 0 0;
+    padding: 5em;
+    height: 25em;
+}
+
+.main-newsletter h3 {
+    text-align: center;
+    font-family: "Gideon Roman", serif;
+
+    font-size: 1.5em;
+}
+
+.main-newsletter .container {
+    display: flex;
+    align-items: center;   
+    gap: 5em;
+}
+
+h3 {
+    color: black;
+    text-shadow: none;
+}
+
+label {
+    color: black;
+    text-shadow: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    width: 50vw;
+}
+
+.informacoesUser {
+    display: flex;
+    flex-direction: column;
+}
+
+.informacoesUser input {
+    border: 2px solid var(--cor-buttons);
+    border-radius: 20px;
+    padding: 1em;
+    color: black;
+}
+
+.informacoesUser input::placeholder {
+    color: black;
+    text-shadow: none;
+}
+
+.informacoesUser input:hover {
+    background-color: var(--cor-buttons2);
+    border-color: var(--cor-buttons2);
+    transition: all 0.25s ease;
+}
+
+.termosUso label {
+    font-size: large;
+}
+
+.termosUso a {
+    color: var(--base-color);
+    text-shadow: none;
+}
+
+.btn-participar {
+    border: none;
+    border-radius: 25px;
+    background-color: var(--base-color);
+    box-shadow: 0px 0px 10px var(--base-color);
+    padding: 0.5em;
+    font-size: 1.8em;
+    text-shadow: none;
+}
+
+.btn-participar:hover {
+    cursor: pointer;
+    background-color: var(--base-color2);
+    box-shadow: 0px 0px 10px var(--base-color2);
+    transition: all 0.25s ease;
+}
+
+#DataDeNascimento {
+    text-shadow: none;
+}
+
+/* END NEWSLETTER CSS */

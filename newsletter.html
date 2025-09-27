@@ -6,18 +6,49 @@
     <title>Historio com H| Newsletter</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="body-newsletter">
     <header>
-        <h1 class="title">HISTORIA</h1>
+        <h1 class="title">NEWSLETTER</h1>
         <div class="navbar">
             <ul>
                 <li><a href="homepage.html">Início</a></li>
                 <li><a href="timeLine.html">Linha do tempo</a></li>
                 <li><a href="library.html">Biblioteca</a></li>
-                <li><a href="newsletter.html" class="active">Newsletter</a></li>
+                <li><a href="newsletter.html" class="active">Newsletter</a></li>    
             </ul>
         </div>
     </header>
+
+    <main class="main-newsletter">
+        <h3>Assine nossa newslatter para receber conteudos exclusivos</h3>
+        <div class="container">
+            <form action="">            
+                <div class="informacoesUser">
+                    <label for="Nome">Nome:</label>
+                    <input type="text" name="" id="Nome" placeholder="Rodrigo Silva" required>
+                </div>
+                
+                <div class="informacoesUser">
+                    <label for="Email">E-mail:</label>
+                    <input type="email" name="" id="Email" placeholder="example@gmail.com" required>
+                </div>
+                
+                <div class="informacoesUser">
+                    <label for="DataDeNascimento">Data de nascimento:</label>
+                    <input type="date" name="" id="DataDeNascimento" required>
+                </div>
+                
+                <div class="termosUso">
+                    <input type="checkbox" name="" id="termos">
+                    <label for="termos" required>li e concordo com os <a href="">termos de uso</a> </label>
+                </div>
+                
+                <input type="submit" value="PARTICIPAR DO CLUBE" class="btn-participar">
+            </form>
+    
+           <img src="src/brasaoImperial.png" alt="brasão da familia imperial brasileira"> 
+        </div>
+    </main>
 
     <p class="copyrightTag">©Todos os direitos reservados (2025)</p>
 </body>

@@ -99,6 +99,10 @@ section {
     padding-top:  4em;
 }
 
+section div {
+    margin: 10em 20em 0 20em;
+}
+
 .sectionOne {
     
 }
@@ -115,6 +119,11 @@ section {
     background-attachment: fixed;
 }
 
+.sectionThree div {
+    display: flex;
+    flex-direction: column;
+    gap: 15em;
+}
 
 /* END TIMELINE CSS */
 
@@ -221,3 +230,4 @@ form {
 }
 
 /* END NEWSLETTER CSS */
+
